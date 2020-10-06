@@ -4,7 +4,7 @@
 	<title>Input Artikel</title>
 </head>
 <body>
-	<form action="add_artikel.html" method="post" accept-charset="utf-8" enctype="multipart/form-data">
+	<form action="add_artikel.php" method="post" accept-charset="utf-8" enctype="multipart/form-data">
 	<table width="100%" class="form">
 		<tr>
 			<td width="15%">Judul Artikel</td>
