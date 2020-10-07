@@ -10,10 +10,15 @@
 	<div class="box-area">
 		<div class="wrapper">
 			<div class="logo">
-				<header></header>
+				<header>
+            <div class="wrapper">
+                <div class="logo">
+                    <h2>Halaman Input</h2></header>
 			</div>
 		</div>
 	</div>
+	<div class="content-area">
+            <div class="wrapper">
 	<form action="add_artikel.php" method="post" accept-charset="utf-8" enctype="multipart/form-data">
 	
 	<table width="100%" class="form">
@@ -48,5 +53,7 @@
 		</tr>
 	</table>
 </form>
+</div>
+</div>
 </body>
 </html>

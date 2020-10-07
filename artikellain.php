@@ -27,7 +27,7 @@ include "skrip_koneksi.php";
         <P></P>
         <div class="column" style="background-color:#1e1e1e; color: white; float: left; margin-left: 20px;">
         
-        <table >
+        <table style="color:'white'; border-color: #2f2f2f">
        <?php
                $query = "SELECT judul, sinopsis
                FROM input ORDER BY judul";
@@ -37,7 +37,7 @@ include "skrip_koneksi.php";
                    $sinopsis = $hasil['sinopsis'];
                
           ?>
-              <tr>
+              <tr style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 35px; font-weight: 100; float: left; margin-left: 20px; padding: 5">
                   <td>
                       <a href = "tampilperson_artikel.php?judul=<?php echo $judul?>">
                           <?php echo $judul?>
@@ -46,7 +46,7 @@ include "skrip_koneksi.php";
                   
             </tr>
 
-                  ><tr><td><?php echo $sinopsis?></td></tr>
+                  ><tr style="font-size: 20px;"><td><?php echo $sinopsis?></td></tr>
                   
                  
 			<?php }?> 

@@ -4,12 +4,19 @@
 
 header{
     height:100px;
-    background: #0c0c0c;
+    background: #1e1e1e;
     width: 100%;
     z-index:12;
+    
 
 }
 
+.content-area{
+    width:100%;
+    position: relative;
+    background: #5a5353;
+    height: 1000px;
+}
 tr{
     margin-top: 10px;
 }
@@ -27,3 +34,23 @@ tr{
     color: #ffffff;
     letter-spacing:2px;
 }
+    td{
+color: #ffffff;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size:15px;
+font-style: bold;
+padding: 8px;
+}
+
+.logo {
+    width:100%;
+        text-align: left;
+    line-height:100px;
+    text-decoration:none;
+    font-size:19px;
+    font-family:Ringbearer;
+    color: #ffffff;
+    letter-spacing:2px;
+    text-align: center;
+}
+
