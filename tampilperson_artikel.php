@@ -1,5 +1,5 @@
 <?php
-include "koneksi/koneksi.php";
+include "skrip koneksi.php";
 
 if (isset($_GET['judul'])) {
 	$kode = $_GET['judul']; 
