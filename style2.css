@@ -102,6 +102,30 @@ header{
     font-size: 30px;
     margin: 0;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 .content-area p{
@@ -118,3 +142,6 @@ img {
 }
 
 
+.table{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

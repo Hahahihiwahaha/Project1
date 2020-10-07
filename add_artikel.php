@@ -23,7 +23,7 @@ if ($_SERVER['REQUEST_METHOD'] =='POST') {
 	if ($query){
 
 		echo "<h2><font color=blue>Artikel berhasil ditambahkan</font></h2>";
-		echo "Klik <a href='artikellain.html'>di sini</a> untuk kembali ke halaman artikel";
+		echo "Klik <a href='artikellain.php'>di sini</a> untuk kembali ke halaman artikel";
 
 	} else {
 
