@@ -1,0 +1,29 @@
+.form{
+
+}
+
+header{
+    height:100px;
+    background: #0c0c0c;
+    width: 100%;
+    z-index:12;
+
+}
+
+tr{
+    margin-top: 10px;
+}
+.wrapper{
+    width:100%;
+    margin : 0 auto;
+
+}.logo {
+    width:100%;
+        text-align: left;
+    line-height:100px;
+    text-decoration:none;
+    font-size:19px;
+    font-family: "Fredoka-One";
+    color: #ffffff;
+    letter-spacing:2px;
+}

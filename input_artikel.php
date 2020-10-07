@@ -1,13 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+
+<link rel="stylesheet" href="style3.css">
 	<title>Input Artikel</title>
 </head>
 <body>
+	<div class="box-area">
+		<div class="wrapper">
+			<div class="logo">
+				<header></header>
+			</div>
+		</div>
+	</div>
 	<form action="add_artikel.php" method="post" accept-charset="utf-8" enctype="multipart/form-data">
+	
 	<table width="100%" class="form">
 		<tr>
-			<td width="15%">Judul Artikel</td>
+			<td width="15%" margin-top="10px">Judul Artikel</td>
 			<td><input type="text" name="judul" size="40"></td>
 		</tr>
 		<tr>
