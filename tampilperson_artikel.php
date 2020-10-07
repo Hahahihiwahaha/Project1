@@ -1,13 +1,13 @@
 <?php
-include "skrip koneksi.php";
+include "skrip_koneksi.php";
 
 if (isset($_GET['judul'])) {
-	$kode = $_GET['judul']; 
+    $judul = $_GET['judul']; 
 			} else {
 die ("Error. No Judul Selected! ");
 			}
 
-$query = "SELECT judul, nama, tempat, tanggal, isi FROM input ORDER BY judul";
+$query = "SELECT judul, nama, tempat, tanggal, isi FROM input WHERE judul = '$judul'";
 $sql = mysql_query($query);
 $hasil = mysql_fetch_array($sql);
 $judul = ($hasil['judul']);
@@ -40,7 +40,7 @@ $isi = ($hasil['isi']);
 	</tr>	
 	<tr>
 		<td></td>
-		<td><a href="tampil_artikel.php">kembali</a><br/></td>
+		<td><a href="artikellain.php">kembali</a><br/></td>
 	</tr>
 </table>
 </form>

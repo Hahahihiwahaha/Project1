@@ -1,5 +1,5 @@
 <?php
-include "skrip koneksi.php";
+include "skrip_koneksi.php";
 
 if ($_SERVER['REQUEST_METHOD'] =='POST') {
 
