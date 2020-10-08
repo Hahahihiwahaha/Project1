@@ -22,7 +22,7 @@ if ($_SERVER['REQUEST_METHOD'] =='POST') {
 	//Eksekusi Query database
 	if ($query){
 
-		echo "<h2><font color=blue>Artikel berhasil ditambahkan</font></h2>";
+		echo "<h2><font color=blue background-color=#1e1e1e>Artikel berhasil ditambahkan</font></h2>";
 		echo "Klik <a href='artikellain.php'>di sini</a> untuk kembali ke halaman artikel";
 
 	} else {
